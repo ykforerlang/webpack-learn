@@ -1,0 +1,24 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "first to learn",
+  "main": "app.js",
+  "scripts": {
+    "test": "no",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "author": "yankang",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.15.0",
+    "jquery": "^2.2.3",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
