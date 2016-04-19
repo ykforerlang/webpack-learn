@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "no",
-    "start": "webpack-dev-server --hot --inline"
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress --profile --colors --config webpack.production.config.js"
   },
   "author": "yankang",
   "license": "ISC",
